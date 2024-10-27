@@ -1,0 +1,59 @@
+body {
+    color: #83b3d7;
+    background: darkblue;
+    margin: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #83b3d7;
+    padding: 20px;
+    font-size: 28px;
+    color: #83b3d7;
+}
+
+.chamada {
+    background: rgb(10,56,74,0.36);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+img{
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid #83b3d7;
+
+}
